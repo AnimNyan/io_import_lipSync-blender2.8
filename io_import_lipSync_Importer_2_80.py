@@ -23,7 +23,7 @@ bl_info = {
     "name": "LipSync Importer & Blinker",
     "author": "Yousef Harfoush - bat3a ;) / Konstantin Dmitriev / fixed for 2.76x by Looch / 2.8 fix by iCEE HAM", 
     "version": (0, 5, 3),
-    "blender": (2, 80, 0),
+    "blender": (2, 92, 0),
     "location": "3D window > Tool Shelf",
     "description": "Plot Moho (Papagayo, Jlipsync, Yolo) file to frames and adds automatic blinking. Modified by Konstantin Dmitriev for Morevna Project to support Pose Libraries and CG Cookie Flex Rig",
     "warning": "",
@@ -489,24 +489,24 @@ class BTN_OP_blinker(bpy.types.Operator):
 #defining custom enumeratos
 class MENU_PG_types(bpy.types.PropertyGroup):
 
-    enumFileTypes = EnumProperty(items =(('0', 'Papagayo', ''),
+    enumFileTypes : EnumProperty(items =(('0', 'Papagayo', ''),
                                          ('1', 'Jlipsync Or Yolo', '')
                                        #,('2', 'Retarget', '')
                                          ),
                                  name = 'Choose FileType',
                                  default = '0')
 
-    enumBlinkTypes = EnumProperty(items =(('0', 'Specific', ''),
+    enumBlinkTypes : EnumProperty(items =(('0', 'Specific', ''),
                                           ('1', 'Random','')),
                                   name = 'Choose BlinkType',
                                   default = '0')
 
-    enumModeTypes = EnumProperty(items =(('0', 'Lipsyncer',''),
+    enumModeTypes : EnumProperty(items =(('0', 'Lipsyncer',''),
                                          ('1', 'Blinker','')),
                                  name = 'Choose Mode',
                                  default = '0')
 
-    enumBoneMethodTypes = EnumProperty(items =(('0', 'Pose Library',''),
+    enumBoneMethodTypes : EnumProperty(items =(('0', 'Pose Library',''),
                                                ('1', 'Bone Rotation','')),
                                  name = 'Method',
                                  default = '0')
