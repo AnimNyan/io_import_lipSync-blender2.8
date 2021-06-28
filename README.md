@@ -1,16 +1,16 @@
 <img width="1414" src="https://raw.githubusercontent.com/iCEE-HAM/io_import_lipSync-blender2.8/master/Lipsync%20importer.PNG">
 
-# io_import_lipSync-blender2.8
-io_import_lipSync_Importer.py for Blender 2.8
-
-This plugin is not made by me but was updated to support Blender 2.8
+# io_import_lipSync-blender2.93+
+io_import_lipSync_Importer.py for Blender 2.93+
+Anime Nyan: This plugin is not made by either but was updated to support Blender 2.93+
+iCEE-HAM's comment: This plugin is not made by me but was updated to support Blender 2.8
 
 When installing the plugin do not install as an .zip file, but only intall the .py file
 
 IMPORTENT READ BEFORE USE.
 The plugin has only been tested with Pappagayo ".dat" files and only with the use of shape keys, the Pappagayo software used was Pappagayo-NG 1.4.2 https://github.com/morevnaproject/papagayo-ng . When importing lipsync files activate the Relative Path checkmark box, found by pressing the top right gear/cog inside of the file browser.
 
-Tutorial I recomand for making the shapekeys and importing the .dat files https://youtu.be/OV45cE7pl3o
+Tutorial I recommend for making the shapekeys and importing the .dat files https://youtu.be/OV45cE7pl3o
 
 # ##### BEGIN GPL LICENSE BLOCK #####
 
